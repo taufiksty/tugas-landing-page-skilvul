@@ -35,7 +35,7 @@
 								<a href="">Kelas</a>
 							</li>
 							<li class="menu-navbar">
-								<a href="#footer">Kontak</a>
+								<a href="#form-section">Kontak</a>
 							</li>
 						</ul>
 					</div>
@@ -68,7 +68,7 @@
 					<li class="menu-option-navbar"><a href="#">Beranda</a></li>
 					<li class="menu-option-navbar"><a href="#tentang">Tentang</a></li>
 					<li class="menu-option-navbar"><a href="">Kelas</a></li>
-					<li class="menu-option-navbar"><a href="#footer">Kontak</a></li>
+					<li class="menu-option-navbar"><a href="#form-section">Kontak</a></li>
 				</ul>
 			</div>
 		</header>
@@ -221,7 +221,9 @@
 							<input
 								type="number"
 								name="zipCode"
-								id="zip-code" />
+								id="zip-code"
+								min="0"
+								oninput="this.value = Math.abs(this.value)" />
 						</div>
 						<div class="spanning">
 							<div class="input-container checkbox">
@@ -301,10 +303,10 @@
 				<div class="features">
 					<p class="text-kontak-features">Features</p>
 					<ul>
-						<a href=""><li class="text-footer">Beranda</li></a>
-						<a href=""><li class="text-footer">Tentang</li></a>
+						<a href="#"><li class="text-footer">Beranda</li></a>
+						<a href="#tentang"><li class="text-footer">Tentang</li></a>
 						<a href=""><li class="text-footer">Kelas</li></a>
-						<a href=""><li class="text-footer">Kontak</li></a>
+						<a href="#form-section"><li class="text-footer">Kontak</li></a>
 					</ul>
 				</div>
 			</div>
