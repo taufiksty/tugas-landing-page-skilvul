@@ -88,7 +88,9 @@
 					<h1 class="text-h1">
 						Menumbuhkan UMKM Tangguh dengan Edukasi Berkualitas!
 					</h1>
-					<p class="text-hero-p">
+					<p
+						id="description"
+						class="text-hero-p">
 						Pelajari kelas yang Anda butuhkan dan segera aplikasikan di bisnis
 						Anda.
 					</p>
@@ -167,6 +169,87 @@
 				</div>
 			</section>
 			<!-- </TentangSection> -->
+
+			<!-- <FormKontak> -->
+			<section id="form-section">
+				<div class="form-container">
+					<h3 class="text-form-title">Dapatkan Informasi Terbaru UMKM Grow</h3>
+					<form
+						action=""
+						id="form">
+						<div class="input-container">
+							<label
+								for="name"
+								class="label"
+								>Nama</label
+							>
+							<input
+								type="text"
+								name="name"
+								id="name"
+								required />
+						</div>
+						<div class="input-container">
+							<label
+								for="city"
+								class="label"
+								>Kota</label
+							>
+							<input
+								type="text"
+								name="city"
+								id="city" />
+						</div>
+						<div class="input-container">
+							<label
+								for="email"
+								class="label"
+								>Email</label
+							>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								required />
+						</div>
+						<div class="input-container">
+							<label
+								for="zip-code"
+								class="label"
+								>Zip Code</label
+							>
+							<input
+								type="number"
+								name="zipCode"
+								id="zip-code" />
+						</div>
+						<div class="spanning">
+							<div class="input-container checkbox">
+								<input
+									type="checkbox"
+									name="status"
+									id="status" />
+								<label
+									for="status"
+									id="check"
+									>Dengan ini saya menyatakan data yang diisi pada form ini
+									adalah benar dan telah sesuai</label
+								>
+							</div>
+							<div class="input-container">
+								<button
+									type="submit"
+									id="submit-form"
+									class="btn btn-primary">
+									Submit
+								</button>
+							</div>
+						</div>
+						<div id="warning"></div>
+					</form>
+				</div>
+			</section>
+			<!-- </FormKontak> -->
 		</main>
 		<!-- </Main> -->
 
@@ -177,10 +260,14 @@
 					src="./assets/images/Logo.svg"
 					alt="Logo"
 					class="logo-umkmgrow" />
-				<img
-					src="./assets/images/LogoSkilvul.png"
-					alt="LogoSkilvul"
-					class="logo-skilvul" />
+				<a
+					id="link"
+					href="https://skilvul.com">
+					<img
+						src="./assets/images/LogoSkilvul.png"
+						alt="LogoSkilvul"
+						class="logo-skilvul"
+				/></a>
 			</div>
 			<p class="text-footer">Berkembang Bersama UMKM Grow</p>
 			<div class="kontak-features-container">
